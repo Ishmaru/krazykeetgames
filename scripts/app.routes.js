@@ -16,6 +16,12 @@
         controller: 'MainController',
         controllerAs: "vm"
       })
+      .state('projects', {
+        url:'/projects',
+        templateUrl: 'templates/projects.html',
+        controller: 'MainController',
+        controllerAs: "vm"
+      })
 
       $urlRouterProvider.otherwise('/');
   }

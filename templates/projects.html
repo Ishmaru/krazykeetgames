@@ -1,0 +1,33 @@
+<a ng-click="kind = ''">All</a>
+<a ng-click="kind = 'web'">WEB</a>
+<a ng-click="kind = 'mobile'">Mobile</a>
+<a ng-click="kind = 'desktop'">Desktop</a>
+<a ng-click="kind = 'Krazy Keet Games'">Krazy Keet Games</a>
+<a ng-click="kind = 'Titanomachy Studios'">Titanomachy Studios</a>
+
+
+<section class="project-list">
+  <ul>
+    <li ng-repeat="item in vm.dataList | filter: kind | orderBy: '-priority'">
+      <img ng-src="{{item.logoSrc}}" alt="{{item.name}}" height="350" width="500">
+      <span>{{item.name}}</span><span>{{item.version}}</span>
+      <span ng-show="item.studio">STUDIO: {{item.studio}}</span>
+      <span ng-show="item.platforms">Platforms: {{item.platforms}}</span>
+
+      <a ng-show="{{item.gitHub}}" href="{{item.gitHub}}">Source Code</a>
+      <a ng-show="{{item.download}}" href="{{item.download}}">Download</a>
+      <a ng-show="{{item.android}}" href="{{item.android}}">Google Play</a>
+      <a ng-show="{{item.itunes}}" href="{{item.itunes}}">iTunes</a>
+      <a ng-show="{{item.url}}" href="{{item.url}}">Visit Site</a>
+      <p>{{item.description}}</p>
+        <ul ng-show="{{item.media}}">
+          <li>
+            <img ng-show="{{item.media[0]}}" ng-src="{{item.media[0]}}" alt="{{item.name}} screenshot 1" height="200" width="320">
+          </li>
+          <li>
+            <img ng-show="{{item.media[1]}}" ng-src="{{item.media[1]}}" alt="{{item.name}} screenshot 2" height="200" width="320">
+          </li>
+        </ul>
+    </li>
+  </ul>
+</section>

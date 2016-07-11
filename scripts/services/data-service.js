@@ -14,7 +14,7 @@
       {
         type: 'desktop',
         priority: 3,
-        studio: 'KrazyKeetGames',
+        studio: 'Krazy Keet Games',
         name: 'Annex: Conquer the World',
         logoSrc: 'http://orig03.deviantart.net/71ff/f/2012/001/d/5/d54d3ad381807d406e1d54c9f309fb0c-d4kxwj4.png',
         version: '4.0',
@@ -33,7 +33,7 @@
       {
         type: 'desktop',
         priority: 4,
-        studio: 'KrazyKeetGames',
+        studio: 'Krazy Keet Games',
         name: 'Terra Centauri: Last Stand',
         logoSrc: 'http://i59.tinypic.com/2u5c94n.jpg',
         version: '0.5',
@@ -50,7 +50,7 @@
       {
         type: 'desktop',
         priority: 2,
-        studio: 'KrazyKeetGames',
+        studio: 'Krazy Keet Games',
         name: 'Command Assault',
         logoSrc: 'https://raw.githubusercontent.com/Ishmaru/Assault-Command-Mod-for-MG/master/command_assault.png',
         version: '1.6',
@@ -58,8 +58,7 @@
         platforms: ['TBA'],
         media: [
           'https://raw.githubusercontent.com/Ishmaru/Assault-Command-Mod-for-MG/master/screen2.png',
-          'https://raw.githubusercontent.com/Ishmaru/Assault-Command-Mod-for-MG/master/screen1.png',
-          null
+          'https://raw.githubusercontent.com/Ishmaru/Assault-Command-Mod-for-MG/master/screen1.png'
         ],
         download: 'https://forum.megaglest.org/index.php?topic=9830.msg92526#msg92526',
         gitHub: 'https://github.com/Ishmaru/Assault-Command-Mod-for-MG',
@@ -68,7 +67,7 @@
       {
         type: 'desktop',
         priority: 2,
-        studio: 'KrazyKeetGames',
+        studio: 'Krazy Keet Games',
         name: 'CHASM',
         version: 'unreleased',
         logoSrc: 'http://orig04.deviantart.net/4235/f/2013/016/b/b/bbc8ab2daf68929da76f0e9733a38e05-d5rp4wy.png',
@@ -83,6 +82,7 @@
       },
       {
         type: 'desktop',
+        priority: 0,
         studio: 'Krazy Keet Games',
         name: 'Super Ricochet Arena',
         version: '1.1',
@@ -103,7 +103,7 @@
         name: 'Pocket Assault',
         version: '1.3',
         logoSrc: 'http://media.indiedb.com/cache/images/games/1/27/26277/thumb_620x2000/Pocket_Assault.jpg',
-        description: 'Chasm is base in a Fantasy World War 2 world. The powerful Republic of Cruix launched a war of conquest against the world and the only nation able to withstand the onslaught is the wealthy Kindom of Alandia. This game is focused on simple custom deathmatch style battle. There are no Campaigns, Scenarios, or Multiplayer in this game. Still Chasm boasts higher resolution models and textures and still a lot of fun!',
+        description: 'It’s a simple shooter that is easy to learn, and fun to play. Work your way through 13 progressively challenging levels while using every means at your disposal to complete each level.',
         platforms: ['TBA'],
         media: [
           'http://media.indiedb.com/images/games/1/27/26277/screen3.jpg',
@@ -131,18 +131,19 @@
       },
       {
         type: 'web',
-        priority: 5,
+        priority: 6,
         name: 'Brave Battle Arena',
+        studio: 'Krazy Keet Games',
         logoSrc: 'https://raw.githubusercontent.com/Ishmaru/Brave-Battle-Quest/master/art/bba.png',
         url: 'http://ishmaru.github.io/Brave-Battle-Quest/',
         media: ['https://raw.githubusercontent.com/Ishmaru/Brave-Battle-Quest/master/art/bbascreen1.png', 'https://raw.githubusercontent.com/Ishmaru/Brave-Battle-Quest/master/art/bbascreen2.png'],
         gitHub: 'https://github.com/Ishmaru/Brave-Battle-Quest',
-        description: 'This is a class JRPG combat style game, where you and your opponent trade turns using distinct skills till one succeeds, and spoils are taken. This game continues so long as Akari is alive.',
+        description: 'This is a classic JRPG combat style game, where you and your opponent trade turns using distinct skills till one succeeds, and spoils are taken. This game continues so long as Akari is alive.',
         technologies: ['HTML', 'Javascript', 'CSS', 'jQuery', 'Animate CSS']
       },
       {
         type: 'web',
-        priority: 4,
+        priority: 6,
         name: 'Indie Think Tank',
         logoSrc: 'https://dl.dropboxusercontent.com/s/pg2iw08cyt8blh1/Screen%20Shot%202016-07-08%20at%206.39.12%20PM.png',
         url: 'https://whispering-dusk-51539.herokuapp.com/',
@@ -162,6 +163,12 @@
         technologies: ['Node JS', 'Express', 'Mongo DB', 'Mongoose', 'EJS', 'Passport', 'Materialize'],
         team: true,
         role: ['GitHub Master', 'Back End developer']
+      },
+      {
+        type: 'logo',
+        priority: 1,
+        name: 'Krazy Keet Games',
+        logoSrc: 'http://other00.deviantart.net/e280/o/2014/261/9/0/90bbc32acb71e0387a611b22dd27fdc7.png'
       }
     ];
 
