@@ -16,7 +16,7 @@
         priority: 3,
         studio: 'Krazy Keet Games',
         name: 'Annex: Conquer the World',
-        logoSrc: 'http://orig03.deviantart.net/71ff/f/2012/001/d/5/d54d3ad381807d406e1d54c9f309fb0c-d4kxwj4.png',
+        logoSrc: 'http://other00.deviantart.net/159a/o/2014/261/d/9/d9959473ba41802a216d2bbbb2b7bb3f.png',
         version: '4.0',
         description: 'Annex: Conquer the World is an anime themed real time strategy game that brings fast paced combat with a diverse arsenal. Play as one of four factions: The East Ocean Alliance, the NEO Republic, the Shadow Organization, or the Renegades as they struggle for dominance all over the world, competing for a priceless red mineral. The game now contains 4 factions, over 30 tech trees, original maps, and tileset. Built using open source RTS MegaGlest, the focus of the game is multi-player and single-player skirmishes. However there are also scripted scenarios/missions!',
         platforms: ['Windows', 'Linux', 'OSX'],
@@ -165,10 +165,60 @@
         role: ['GitHub Master', 'Back End developer']
       },
       {
-        type: 'logo',
+        type: 'art',
+        medium: 'logo',
         priority: 1,
         name: 'Krazy Keet Games',
         logoSrc: 'http://other00.deviantart.net/e280/o/2014/261/9/0/90bbc32acb71e0387a611b22dd27fdc7.png'
+      },
+      {
+        type: 'art',
+        medium: '3D',
+        priority: 5,
+        name: 'Karina Battle',
+        logoSrc: 'http://other00.deviantart.net/d4c5/o/2010/353/b/9/b986246b08e6f028e2977ce507557404.jpg'
+      },
+      {
+        type: 'art',
+        medium: '3D',
+        priority: 3,
+        name: 'Chasm Image',
+        logoSrc: 'http://other00.deviantart.net/127c/o/2011/003/f/6/f6e053d41c832a3dc570cd5c5aafbe6e.jpg'
+      },
+      {
+        type: 'art',
+        medium: '3D',
+        priority: 3,
+        name: 'TANK',
+        logoSrc: 'http://other00.deviantart.net/cbde/o/2011/003/9/7/97f552d8b15b06d97b1961149e49033e.jpg'
+      },
+      {
+        type: 'art',
+        medium: '3D',
+        priority: 4,
+        name: 'Mech Battle',
+        logoSrc: 'http://other00.deviantart.net/8fa5/o/2010/353/1/7/1719108e102ec02f90a21c3ccfefbf66.jpg'
+      },
+      {
+        type: 'art',
+        medium: '3D',
+        priority: 6,
+        name: 'Dojo',
+        logoSrc: 'http://other00.deviantart.net/8122/o/2010/353/3/1/3161d3d532d90314ab7de2e7229760b2.jpg'
+      },
+      {
+        type: 'art',
+        medium: '3D',
+        priority: 4,
+        name: 'Space',
+        logoSrc: 'http://other00.deviantart.net/4f3b/o/2010/353/1/5/1525c57900f4fd2ba1ef14a82841dbd3.jpg'
+      },
+      {
+        type: 'art',
+        medium: '3D',
+        priority: 1,
+        name: 'Beach Hut',
+        logoSrc: 'http://other00.deviantart.net/05c0/o/2011/003/6/d/6dafc5e847d886b237be1916e5f5aa1e.jpg'
       }
     ];
 
